@@ -2,6 +2,7 @@
   --color-theme: #14120b;
   --text-color: #edecec;
   --secondary-color: #1b1913;
+  --color-accent: #f54e00;
 }
 
 * {
@@ -71,7 +72,7 @@ ul li {
 }
 
 .download-btn:hover {
-  background-color: #edecee;
+  background-color: var(--text-color);
 }
 
 /*  **************************************************** HERO SECTOIN ********************************************** */
@@ -138,3 +139,33 @@ ul li {
 }
 
 /*  **************************************************** FEATURES ********************************************** */
+#features-section {
+  margin: 20px;
+  margin-bottom: 60px;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: var(--secondary-color);
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 80px;
+}
+
+.feature-image {
+  width: 70%;
+}
+
+.feature-item h2 {
+  color: var(--text-color);
+}
+
+.feature-item .learn-more-link {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: var(--color-accent);
+}
