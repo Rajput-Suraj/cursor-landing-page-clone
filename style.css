@@ -1,0 +1,73 @@
+:root {
+  --color-theme: #14120b;
+  --text-color: #edecec;
+  --color-theme-border-02-5: color-mix(in oklab, var(--text-color) 20%, transparent);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-theme);
+  font-family: 'Carrois Gothic', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*  **************************************************** HEADER ********************************************** */
+
+header {
+  max-width: 1300px;
+  padding: 15px 18px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav img {
+  width: 95px;
+}
+
+ul li {
+  color: var(--text-color);
+  list-style: none;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 26%;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.btn {
+  width: auto;
+  padding: 4px 8px;
+  border-radius: 50px;
+  border: none;
+  margin: 0 2px;
+  cursor: pointer;
+}
+
+.sign-in-btn {
+  background-color: var(--color-theme);
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
+}
+
+.download-btn:hover {
+  background-color: #edecee;
+}
