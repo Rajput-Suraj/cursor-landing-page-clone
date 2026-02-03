@@ -323,3 +323,31 @@ ul li {
   font-size: 16px;
   font-weight: 400;
 }
+
+/* **************************************************** CHANGELOG ********************************************** */
+#about {
+  margin: 20px;
+  margin-bottom: 60px;
+}
+
+#about h2 {
+  font-size: 36px;
+  width: 45%;
+  word-break: break-all;
+}
+
+.about-us {
+  margin: 20px 0;
+  line-height: 1;
+  font-size: 16px;
+  padding: 15px;
+  border-radius: 30px;
+  border-color: var(--text-color);
+  background-color: var(--text-color);
+}
+
+.team-photo img {
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 5px;
+}
