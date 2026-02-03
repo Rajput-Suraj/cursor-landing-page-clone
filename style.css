@@ -4,6 +4,7 @@
   --secondary-color: #1b1913;
   --color-accent: #f54e00;
   --color-theme-bg: #14120b;
+  --text-color-sec: #edecec99;
 }
 
 * {
@@ -70,18 +71,18 @@ ul li {
   background-color: var(--color-theme);
   color: var(--text-color);
   border: 1px solid var(--text-color);
-  padding: 10px;
+  padding: 6px;
 }
 
 .download-btn {
-  padding: 10px;
+  padding: 6px;
 }
 
 .download-btn:hover {
   background-color: var(--text-color);
 }
 
-/*  **************************************************** HERO SECTOIN ********************************************** */
+/*  **************************************************** HERO SECTION ********************************************** */
 
 #hero-section {
   margin: 20px;
@@ -355,10 +356,11 @@ ul li {
 .team-photo img {
   width: 100%;
   margin-top: 30px;
+  margin-bottom: 60px;
   border-radius: 5px;
 }
 
-/* **************************************************** CHANGELOG ********************************************** */
+/* **************************************************** CTA ********************************************** */
 
 #cta {
   margin: 20px 0;
@@ -370,4 +372,31 @@ ul li {
 
 #cta h2 {
   font-size: 72px;
+}
+
+/* **************************************************** FOOTER ********************************************** */
+
+footer {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.titles {
+  color: var(--text-color-sec);
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.footer-links {
+  margin: 20px 0;
+}
+
+.footer-links ul li {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.credits {
+  margin: 20px 0;
 }
