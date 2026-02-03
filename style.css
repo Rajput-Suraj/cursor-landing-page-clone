@@ -170,7 +170,7 @@ ul li {
   color: var(--color-accent);
 }
 
-/* **************************************************** FEATURES ********************************************** */
+/* **************************************************** TESTIMONIALS ********************************************** */
 #testimonials {
   margin: 20px;
   margin-bottom: 60px;
@@ -225,4 +225,55 @@ ul li {
 
 .person-name {
   font-size: 16px;
+}
+
+/* **************************************************** USE CASES ********************************************** */
+
+#use-cases {
+  margin: 20px;
+  margin-bottom: 60px;
+}
+
+.use-case-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 30px;
+}
+
+.use-case-item {
+  padding: 15px;
+  margin: 0 20px;
+  border-radius: 5px;
+  background-color: var(--secondary-color);
+}
+
+.use-case-item:first-child {
+  margin: 0;
+}
+
+.use-case-item:last-child {
+  margin-right: 0;
+}
+
+.use-case-item span {
+  margin-bottom: 5px;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.use-case-item p {
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.use-case-img img {
+  width: 100%;
+  height: 400px;
+}
+
+.learn-more {
+  display: inline-block;
+  margin: 20px 0;
+  text-decoration: none;
+  color: var(--color-accent);
 }
