@@ -3,6 +3,7 @@
   --text-color: #edecec;
   --secondary-color: #1b1913;
   --color-accent: #f54e00;
+  --color-theme-bg: #14120b;
 }
 
 * {
@@ -69,6 +70,11 @@ ul li {
   background-color: var(--color-theme);
   color: var(--text-color);
   border: 1px solid var(--text-color);
+  padding: 10px;
+}
+
+.download-btn {
+  padding: 10px;
 }
 
 .download-btn:hover {
@@ -350,4 +356,18 @@ ul li {
   width: 100%;
   margin-top: 30px;
   border-radius: 5px;
+}
+
+/* **************************************************** CHANGELOG ********************************************** */
+
+#cta {
+  margin: 20px 0;
+  margin-bottom: 60px;
+  text-align: center;
+  padding: 134px 20px;
+  background-color: #1b1913;
+}
+
+#cta h2 {
+  font-size: 72px;
 }
